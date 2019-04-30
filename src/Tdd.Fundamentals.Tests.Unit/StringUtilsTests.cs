@@ -21,7 +21,7 @@ namespace Tdd.Fundamentals.Tests.Unit
         public class TheMethod_FindNumberOfOccurrences : StringUtilsTests
         {
             [Fact]
-            public void Should_return_a_count_of_2_of_character_e_in_simple_sentence()
+            public void Should_return_a_count_of_2_for_character_e_in_simple_sentence()
             {
                 // arrange
                 string sentence = "TDD is awesome!";
@@ -36,7 +36,7 @@ namespace Tdd.Fundamentals.Tests.Unit
             }
 
             [Fact]
-            public void Should_return_a_count_of_5_of_character_n_in_complex_sentence()
+            public void Should_return_a_count_of_5_for_character_n_in_complex_sentence()
             {
                 // arrange
                 string sentence = "Once is unique, twice is a coincidence, three times is a pattern.";
@@ -54,7 +54,7 @@ namespace Tdd.Fundamentals.Tests.Unit
             public void Should_throw_an_ArgumentException_with_paramName_character_when_character_has_two_letters()
             {
                 // arrange
-                string sentence = "This test should throw an exception";
+                string sentence = "This test case should throw an exception.";
 
                 string character = "xx";
 
@@ -66,7 +66,7 @@ namespace Tdd.Fundamentals.Tests.Unit
             public void Should_log_the_member_call_specifying_received_parameters()
             {
                 // arrange
-                string sentence = "Sentence to log";
+                string sentence = "Sentence to log.";
 
                 string character = "e";
 

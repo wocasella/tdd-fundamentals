@@ -16,17 +16,17 @@ namespace Tdd.Fundamentals
             if (character.Length != 1)
                 throw new ArgumentException("Must be one character length", nameof(character));
 
-            int numberOfOccurrencies = 0;
+            int numberOfOccurrences = 0;
             var characterToSearchFor = char.Parse(character);
 
             foreach (char c in sentence)
             {
-                if (c == characterToSearchFor) numberOfOccurrencies++;
+                if (c == characterToSearchFor) numberOfOccurrences++;
             }
 
             this.logger.LogMemberCalled(nameof(FindNumberOfOccurrences), sentence, character);
 
-            return numberOfOccurrencies;
+            return numberOfOccurrences;
         }
     }
 }
