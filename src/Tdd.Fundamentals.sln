@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tdd.Fundamentals.Tests.Unit", "..\Tdd.Fundamentals.Tests.Unit\Tdd.Fundamentals.Tests.Unit.csproj", "{C5F76A37-78D1-4640-9311-7C5F163FD52B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tdd.Fundamentals.Tests.Unit", "Tdd.Fundamentals.Tests.Unit\Tdd.Fundamentals.Tests.Unit.csproj", "{C5F76A37-78D1-4640-9311-7C5F163FD52B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tdd.Fundamentals", "Tdd.Fundamentals\Tdd.Fundamentals.csproj", "{AE7192F1-D68F-4645-BC99-36D4D40E7963}"
 EndProject

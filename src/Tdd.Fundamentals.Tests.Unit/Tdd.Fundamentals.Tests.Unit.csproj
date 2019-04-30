@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\Tdd.Fundamentals\Tdd.Fundamentals.csproj" />
+    <ProjectReference Include="..\Tdd.Fundamentals\Tdd.Fundamentals.csproj" />
   </ItemGroup>
 
 </Project>
